@@ -40,6 +40,23 @@ public class Persona {
 	public void setProvincia(String provincia) {
 		this.provincia = provincia;
 	}
-    
-    
+    	
+	 public Persona() {
+	    }
+
+	public Persona(String dni, String nombre, LocalDate fechaNacimiento, String domicilio, String provincia) {
+	    this.dni = dni;
+	    this.nombre = nombre;
+	    this.fechaNacimiento = fechaNacimiento;
+	    this.domicilio = domicilio;
+	    this.provincia = provincia;
+	    }
+
+	    public Persona(String dni, String nombre, LocalDate fechaNacimiento) {
+	    this.dni = dni;
+	    this.nombre = nombre;
+	    this.fechaNacimiento = fechaNacimiento;
+	    this.provincia = "Jujuy";
+	    this.domicilio = null;
+	    }
 }
