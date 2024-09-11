@@ -77,13 +77,13 @@ public class Persona {
 	        System.out.println("DNI: " + this.dni);
 	        System.out.println("Nombre: " + this.nombre);
 	        System.out.println("Fecha de Nacimiento: " + this.fechaNacimiento);
-	        System.out.println("Domicilio: " + (this.domicilio != null ? this.domicilio : "No especificado"));
+	        System.out.println("Domicilio: " + (this.domicilio != null ? this.domicilio : "NO ESPECIFICADO"));
 	        System.out.println("Provincia: " + this.provincia);
 	        System.out.println("Edad: " + calcularEdad());
 	        if (esMayorDeEdad()) {
-	            System.out.println("La persona es mayor de edad.");
+	            System.out.println("LA PERSONA ES MAYOR DE EDAD\n");
 	        } else {
-	            System.out.println("La persona no es mayor de edad.");
+	            System.out.println("LA PERSONA NO ES MAYOR DE EDAD\n");
 	        }
 	    }
 }
